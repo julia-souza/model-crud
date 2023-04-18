@@ -18,7 +18,7 @@ A versão utilziada neste projeto é: ``2.5.5``
 
 ## Caso esteja clonando o repositório...
 
-Caso tenha clonadao o repositório, basta acessar a pasta ```apicnqp`` e esecutar o comando:
+Caso tenha clonadao o repositório, basta acessar a pasta ```apicnqp``` e esecutar o comando:
 ```
 composer install
 ```
