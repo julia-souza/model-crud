@@ -6,6 +6,7 @@
 * PHP: ^8.2
 * Composer: 2.5.5
 * Laravel: ^10.8
+* NodeJS: ^18.16.0
 * PHP Create Class (extensão para gerar classes PHP no VS Code)
 
 * Versão utilizada do framework = Laravel v10.8.0 (PHP v8.2.4)

@@ -4,8 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class UsuariosController extends Controller
-{   
+class UsuariosController extends Controller{   
     //listagem dos usuários
     public function index(){
         $users = [
@@ -18,5 +17,9 @@ class UsuariosController extends Controller
         //return view('listarUsuarios', compact('users'));
 
         return view('usuarios.index')->with('users', $users);
+    }
+
+    public function create(){
+        return view('usuarios.create');
     }
 }

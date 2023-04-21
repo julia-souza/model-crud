@@ -1,0 +1,14 @@
+ano_referencia
+processo
+data_inicio
+data_termino
+beneficiario
+programa
+grande_area
+area
+subarea
+pais_origem
+instituto_destino
+sigla_instituicao
+uf
+valor_pago

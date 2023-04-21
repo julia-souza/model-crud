@@ -1,12 +1,12 @@
 # PHP CRUD com Laravel: Leia com atenção! 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](/made-with-php.svg)](https://forthebadge.com)
 
-## Arquivo importantes: 
+## Arquivos importantes: 
 * Rotas: ``\apicnpq\routes\web.php`` 
 
-* Controller: ```apicnpq\app\Http\Controllers```
+* Controller: ```\apicnpq\app\Http\Controllers```
 
-* View: ```C:\apicnpq\resources\views```
+* View: ```\apicnpq\resources\views```
 
 ## PHP Artisan
 ### Alguns comandos importantes!!
@@ -37,4 +37,26 @@ php artisan make:component Nome-do-componente
 ou 
 ```
 php artisan make:component layout –view
+```
+
+
+## LaravelMIX
+Execute o comando 
+```
+npm install laravel-mix --save-dev
+```
+Depois crie na raiz do projeto o arquivo **webpack.mix.js** com o seguinte conteúdo:
+```
+const mix = require('laravel-mix');
+```
+
+Além disso, para executar corretamente o comando do mix, adicione ao seu **package.json**, em *"scripts"*, a linha **"mix": "mix"**.
+
+Para executar o front-edn, vamos utilizar: ``npm run mix``
+
+## Instalando o Boostrap
+
+Execute: 
+```
+npm install bootstrap
 ```
