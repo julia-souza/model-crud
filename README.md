@@ -6,7 +6,9 @@
 * PHP: ^8.2
 * Composer: 2.5.5
 * Laravel: ^10.8
+* PHP Create Class (extensão para gerar classes PHP no VS Code)
 
+* Versão utilizada do framework = Laravel v10.8.0 (PHP v8.2.4)
 ## Configurando o ambiente
 
 * Para gerenciar as dependências, será necessário o uso do **composer**. Para isso, basta acessar a documentação <https://getcomposer.org/download/>.
@@ -30,12 +32,5 @@ para ter acesso à todas as dependências do projeto!
 * Criando o projeto **Laravel** via composer do zero:
 
 ```
-composer create-project laravel/laravel apicnpq 
-```
-
-## Uso do servidor interno
-
-Execute o comando:
-```
-php artisan serve
+composer create-project laravel/laravel <nome-do-projeto>
 ```
