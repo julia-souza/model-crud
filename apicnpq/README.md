@@ -48,7 +48,7 @@ Para criar as tabelas, execute:
 php artisan migrate
 ```
 
-Para desfazer a migrate, basta: ```php artisan migrate:rollback```
+Para **desfazer** a migrate, basta: ```php artisan migrate:rollback```
 
 ## LaravelMIX
 Execute o comando 
@@ -69,4 +69,12 @@ Para executar o front-edn, vamos utilizar: ``npm run mix``
 Execute: 
 ```
 npm install bootstrap
+```
+
+## DB Facade
+Veja os arquivos:
+```
+apicnpq/app/Http/Controllers/UsuariosController.php
+apicnpq/routes/web.php
+
 ```

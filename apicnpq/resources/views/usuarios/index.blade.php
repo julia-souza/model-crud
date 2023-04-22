@@ -1,10 +1,10 @@
-<x-layout title="Beneficiários">
-    <a href="/usuarios/cadastro">Cadastre um novo beneficiário</a>
-
-    <h1>Lista de Beneficiários</h1>
-    <ul> 
-        @foreach ($users as $user)
-        <li>{{$user}}</li>
-        @endforeach
-    </ul>
+<x-layout title="Usuário">
+    <div class="container" >      
+        <h1>Lista de Usuários do sistema</h1>
+        <ul> 
+            @foreach ($users as $user)
+            <li>{{$user->nome}}</li>
+            @endforeach
+        </ul>
+    </div>
 </x-layout>

@@ -24,3 +24,4 @@ Route::get('/usuarios', [UsuariosController::class, 'index']);
 //Rota para cadastro de usuários
 Route::get('/usuarios/cadastro', [UsuariosController::class, 'create']);
 
+Route::post('/usuarios/salvar', [UsuariosController::class, 'store']);
