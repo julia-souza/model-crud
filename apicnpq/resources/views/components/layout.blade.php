@@ -8,7 +8,6 @@
     <title>{{ $title }} | API CNPq</title>
 </head>
 <body>
-    <!-- <div class="container"> -->
         <nav class="navbar bg-light">
             <div class="container-fluid">
                 <p class="navbar-brand" href="#">

@@ -5,8 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 class UsuariosController extends Controller{   
-    //listagem dos usuários
+   
     public function index(){
+        // $users = Usuario::all(); //Eloquent ORM
         $users =  \DB::select('SELECT * FROM usercnpq;');
         // dd($users);
         
@@ -26,8 +27,8 @@ class UsuariosController extends Controller{
         $senhaUsuario = $request->input('password');
        
         if(\DB::insert('INSERT INTO usercnpq (nome,senha) VALUES (?,?)', [$nomeUsuario,$senhaUsuario])){
-            return "Usuário cadastrado com sucesso";
-        }else{
+            return redirect('/usuarios');
+        }else{ 
             return "Erro ao cadastrar";
         }
     }
