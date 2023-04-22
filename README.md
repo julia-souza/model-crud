@@ -15,7 +15,7 @@
 * Para gerenciar as dependências, será necessário o uso do **composer**. Para isso, basta acessar a documentação <https://getcomposer.org/download/>.
 A versão utilziada neste projeto é: ``2.5.5`` 
 
-* Para utilizar o **PostgreSQL**, adicione a seguinte extensão no arquivo ```php.ini```:  **``extension=php_pgsql.dll``**
+* Para utilizar o **PostgreSQL**, adicione a seguinte extensão no arquivo ```php.ini```:  **``extension=php_pgsql.dll``**, **``extension=pdo_pgsql``**
 
 * Para a utilização do Laravel com PHP 8.2, lembre-se de adicionar a extensão **`` extension=fileinfo``** no arquivo  ```php.ini```.
 
