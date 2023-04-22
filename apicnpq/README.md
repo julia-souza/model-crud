@@ -39,6 +39,16 @@ ou
 php artisan make:component layout –view
 ```
 
+**Gerar *migration* automagicamente:** 
+```
+php artisan make:migration create_TABLE-NAME_table
+```
+Para criar as tabelas, execute: 
+```
+php artisan migrate
+```
+
+Para desfazer a migrate, basta: ```php artisan migrate:rollback```
 
 ## LaravelMIX
 Execute o comando 
