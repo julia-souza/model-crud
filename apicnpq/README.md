@@ -25,6 +25,7 @@ php artisan serve --host=IP_do_host --port=PORTA
 ```
 ### Make
 Doc: <https://laravel.com/docs/10.x/artisan#generating-commands>
+Doc 2: <https://github.com/artesaos/laravel-docs/blob/master/pt_BR/migrations.md#introduction>
 
 **Gerar *controller* automagicamente:** ```php artisan make:controller Nome-do-controller --resource ```
 
@@ -69,6 +70,10 @@ Para executar o front-edn, vamos utilizar: ``npm run mix``
 Execute: 
 ```
 npm install bootstrap
+```
+### Boostrap Icon
+```
+npm i bootstrap-icons
 ```
 
 ## DB Facade
